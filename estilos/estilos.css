@@ -68,3 +68,11 @@ h4{
     text-align: center;
     background-color: blueviolet;
 }
+h5{
+    text-align: center;
+    margin:auto;
+}
+h6{
+    text-align: justify;
+    margin-block-start: auto;
+}
