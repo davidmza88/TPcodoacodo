@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 164, 90);
+    font-family: calabri;
+
+}
+header{
+    background-color: rgba(128, 122, 216, 0.363);
+    width: 100%;
+    clear: both;
+    contain: none;
+    display: table;
+}
+menu{
+    width: 200px;
+    margin: auto;
+}
+.img{
+    width: 8px;
+    height: 50px;
+    float: left;
+    padding: 8px;
+}
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 75px;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+nav ul li a ::before{
+    display: block;
+    content: none;
+    width: 100%;
+    background: azure;
+    height: 5px;
+    top: 0;
+    position: absolute;
+   
+}
+h2{
+    text-align: center; 
+    display: contents;
+    float: none;
+    margin: auto;
+}
+h6{
+
+    text-align: center;
+    background-color: azure; 
+}
+h4{
+    text-align: center;
+    background-color: blueviolet;
+}
